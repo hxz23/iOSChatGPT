@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		815705132EFE250B008BE4E5 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 815705122EFE250B008BE4E5 /* MarkdownUI */; };
 		815705162EFE2579008BE4E5 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 815705152EFE2579008BE4E5 /* OpenAI */; };
+		815705192EFE28F9008BE4E5 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 815705182EFE28F9008BE4E5 /* SwiftUIX */; };
+		8157052A2EFE6131008BE4E5 /* SwiftFormat in Frameworks */ = {isa = PBXBuildFile; productRef = 815705292EFE6131008BE4E5 /* SwiftFormat */; };
+		815705332EFE776D008BE4E5 /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = 815705322EFE776D008BE4E5 /* LookinServer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815705332EFE776D008BE4E5 /* LookinServer in Frameworks */,
+				815705192EFE28F9008BE4E5 /* SwiftUIX in Frameworks */,
+				8157052A2EFE6131008BE4E5 /* SwiftFormat in Frameworks */,
 				815705162EFE2579008BE4E5 /* OpenAI in Frameworks */,
 				815705132EFE250B008BE4E5 /* MarkdownUI in Frameworks */,
 			);
@@ -74,6 +80,9 @@
 			packageProductDependencies = (
 				815705122EFE250B008BE4E5 /* MarkdownUI */,
 				815705152EFE2579008BE4E5 /* OpenAI */,
+				815705182EFE28F9008BE4E5 /* SwiftUIX */,
+				815705292EFE6131008BE4E5 /* SwiftFormat */,
+				815705322EFE776D008BE4E5 /* LookinServer */,
 			);
 			productName = iOSChatGPT;
 			productReference = 815705032EFE235A008BE4E5 /* iOSChatGPT.app */;
@@ -106,6 +115,9 @@
 			packageReferences = (
 				815705112EFE250B008BE4E5 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
 				815705142EFE2579008BE4E5 /* XCRemoteSwiftPackageReference "OpenAI" */,
+				815705172EFE28F9008BE4E5 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				815705282EFE6131008BE4E5 /* XCRemoteSwiftPackageReference "SwiftFormat" */,
+				815705312EFE776D008BE4E5 /* XCRemoteSwiftPackageReference "LookinServer" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 815705042EFE235A008BE4E5 /* Products */;
@@ -382,6 +394,30 @@
 				minimumVersion = 0.4.7;
 			};
 		};
+		815705172EFE28F9008BE4E5 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.4;
+			};
+		};
+		815705282EFE6131008BE4E5 /* XCRemoteSwiftPackageReference "SwiftFormat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicklockwood/SwiftFormat.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.58.7;
+			};
+		};
+		815705312EFE776D008BE4E5 /* XCRemoteSwiftPackageReference "LookinServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QMUI/LookinServer/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.8;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -394,6 +430,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 815705142EFE2579008BE4E5 /* XCRemoteSwiftPackageReference "OpenAI" */;
 			productName = OpenAI;
+		};
+		815705182EFE28F9008BE4E5 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 815705172EFE28F9008BE4E5 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		815705292EFE6131008BE4E5 /* SwiftFormat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 815705282EFE6131008BE4E5 /* XCRemoteSwiftPackageReference "SwiftFormat" */;
+			productName = SwiftFormat;
+		};
+		815705322EFE776D008BE4E5 /* LookinServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 815705312EFE776D008BE4E5 /* XCRemoteSwiftPackageReference "LookinServer" */;
+			productName = LookinServer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -1,6 +1,15 @@
 {
-  "originHash" : "36182855457b2ca4facbab383d61178b08c4f940d57d96ae902c5cb475745b30",
+  "originHash" : "add6cbaeae1b8636bf1fcbed4dccc01cd35771a7497e23ebeb21bf9872bbe737",
   "pins" : [
+    {
+      "identity" : "lookinserver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/QMUI/LookinServer/",
+      "state" : {
+        "revision" : "e553d1b689d147817dc54ad5c28fcff71e860101",
+        "version" : "1.2.8"
+      }
+    },
     {
       "identity" : "networkimage",
       "kind" : "remoteSourceControl",
@@ -53,6 +62,24 @@
       "state" : {
         "revision" : "7cdf33371bf89b23b9cf4fd3ce8d3c825c28fbe8",
         "version" : "1.9.0"
+      }
+    },
+    {
+      "identity" : "swiftformat",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/SwiftFormat.git",
+      "state" : {
+        "revision" : "fb7ce2e469c18017c92523c93fd3b1b9757a4dd1",
+        "version" : "0.58.7"
+      }
+    },
+    {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX.git",
+      "state" : {
+        "revision" : "d9f903b214b9d56e3c1e4533b03359aee94acd5d",
+        "version" : "0.2.4"
       }
     }
   ],
